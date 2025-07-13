@@ -11,7 +11,7 @@ const getBalance=require("./routes/getbalance");
 
 app.use(express.json());
 app.use(cors({
-    origin: 'https://e-rupee-lac.vercel.app/',
+    origin: 'https://e-rupee-lac.vercel.app',
     credentials: true // if you're sending cookies or using credentials
   }));
 app.use("/user",userLogin);
