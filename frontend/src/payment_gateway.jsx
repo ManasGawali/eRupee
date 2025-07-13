@@ -96,7 +96,7 @@ function PaymentDashboard() {
       };
       console.log("token",token);
 
-      const response = await fetch('https://e-rupee.onrender.com/transact/transfer', {
+      const response = await fetch('https://erupee.onrender.com/transact/transfer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -22,7 +22,7 @@ export default function PendingRequestsPage() {
       try {
         console.log('Fetching pending requests with token:', token);
         
-        const response = await fetch('https://e-rupee.onrender.com/getPending', {
+        const response = await fetch('https://erupee.onrender.com/getPending', {
           headers: {
             'token': `Bearer ${token}`,
           },
@@ -110,7 +110,7 @@ export default function PendingRequestsPage() {
     }
     
     try {
-      const response = await fetch('https://e-rupee.onrender.com/transact/pending_request', {
+      const response = await fetch('https://erupee.onrender.com/transact/pending_request', {
         method: 'PUT', // Changed to PUT to match backend route
         headers: {
           'Content-Type': 'application/json',

@@ -50,7 +50,7 @@ function Dashboard() {
       }
 
       try {
-        const response = await axios.post('https://e-rupee.onrender.com/getBalance', {}, {
+        const response = await axios.post('https://erupee.onrender.com/getBalance', {}, {
           headers: {
             token: `Bearer ${token}`,
           },
@@ -84,7 +84,7 @@ function Dashboard() {
       try {
         setQrError('');
         const response = await axios.post(
-          'https://e-rupee.onrender.com/get_qr',
+          'https://erupee.onrender.com/get_qr',
           { text: data.user_name },
           {
             headers: {

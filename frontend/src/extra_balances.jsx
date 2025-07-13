@@ -16,7 +16,7 @@ function ExtraBalances() {
       return;
     }
 
-    axios.get("https://e-rupee.onrender.com/getBalance/Extra", {
+    axios.get("https://erupee.onrender.com/getBalance/Extra", {
       headers: {
         token: `Bearer ${token}`
       },

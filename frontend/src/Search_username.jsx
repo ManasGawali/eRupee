@@ -23,7 +23,7 @@ function SearchUsername() {
       setLoading(true);
       setError(null);
 
-      fetch(`https://e-rupee.onrender.com/transact/check-user`, {
+      fetch(`https://erupee.onrender.com/transact/check-user`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

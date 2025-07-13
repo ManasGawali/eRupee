@@ -85,7 +85,7 @@ const ExtraPaymentRequestForm = () => {
         purpose: formData.purpose || 'Not specified'
       };
 
-      const response = await fetch('https://e-rupee.onrender.com/transact/permission_extra_bal', {
+      const response = await fetch('https://erupee.onrender.com/transact/permission_extra_bal', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
